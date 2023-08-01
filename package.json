@@ -1,0 +1,29 @@
+{
+  "name": "goit_node.js_hw_1",
+  "version": "1.0.0",
+  "description": "My first project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon index.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Homziak Andrii",
+  "license": "MIT",
+  "engines": {
+    "node": "v18.17.0",
+    "npm": "9.6.7"
+  },
+  "prevate": "true",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
